@@ -15,5 +15,8 @@ return [
         'http' => [
             App\Exception\Handler\AppExceptionHandler::class,
         ],
+        'jsonrpc-http' => [
+            \App\Exception\Handler\AppExceptionHandler::class
+        ]
     ],
 ];

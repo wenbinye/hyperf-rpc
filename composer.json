@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/hyperf-skeleton",
+    "name": "wenbinye/hyperf-rpc-server",
     "type": "project",
     "keywords": [
         "php",
@@ -13,6 +13,7 @@
     "license": "Apache-2.0",
     "require": {
         "php": ">=7.2",
+        "ext-json": "*",
         "ext-swoole": ">=4.2",
         "hyperf/cache": "~1.0.0",
         "hyperf/command": "~1.0.0",
@@ -28,17 +29,21 @@
         "hyperf/framework": "~1.0.0",
         "hyperf/guzzle": "~1.0.0",
         "hyperf/http-server": "~1.0.0",
+        "hyperf/json-rpc": "~1.0.0",
         "hyperf/logger": "~1.0.0",
         "hyperf/memory": "~1.0.0",
         "hyperf/paginator": "~1.0.0",
         "hyperf/pool": "~1.0.0",
         "hyperf/process": "~1.0.0",
         "hyperf/redis": "~1.0.0",
-        "hyperf/utils": "~1.0.0",
-        "hyperf/json-rpc": "~1.0.0",
         "hyperf/rpc": "~1.0.0",
         "hyperf/rpc-client": "~1.0.0",
-        "hyperf/rpc-server": "~1.0.0"
+        "hyperf/rpc-server": "~1.0.0",
+        "hyperf/utils": "~1.0.0",
+        "kuiper/doc-reader": "v0.4.0.x-dev",
+        "ocramius/proxy-manager": "^2.0",
+        "symfony/property-access": "^4.3",
+        "symfony/serializer": "^4.3"
     },
     "require-dev": {
         "swoft/swoole-ide-helper": "^4.2",

@@ -12,5 +12,9 @@ declare(strict_types=1);
 
 return [
     'http' => [
+        \App\Middleware\AccessLog::class
     ],
+    'jsonrpc-http' => [
+        \App\Middleware\AccessLog::class
+    ]
 ];
